@@ -40,3 +40,105 @@ nav ul li:hover {
   background: #37e1ff;
   border-radius: 3px;
 }
+/* header */
+.branding {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.branding h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.branding p {
+  color: rgb(47, 47, 47);
+  font-weight: 500;
+  font-size: 14px;
+}
+/* form */
+.form-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 2%;
+}
+.form-section .right,
+.left {
+  width: 50%;
+}
+.form-section .left {
+  padding: 5%;
+}
+.form-section .via-buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.form-section .via-buttons a {
+  background: #000;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.form-section .via-buttons img {
+  width: 30px;
+}
+.btn {
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.btn img {
+  width: 30px;
+}
+.btns .btn {
+  background: black;
+  color: white;
+}
+form {
+  width: 100%;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  position: relative;
+}
+form div label {
+  text-transform: capitalize;
+  font-weight: 700;
+  background: white;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -10px;
+  font-size: 14px;
+}
+form div input,
+textarea {
+  height: 50px;
+  border: 2px solid rgb(149, 149, 149);
+  padding: 1%;
+}
